@@ -284,7 +284,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 100px;
-    width: 100%;
+    width: 99%;
     margin-top: 100px;
     padding-right: 1rem;
 }
@@ -331,8 +331,12 @@ body {
 .locale-container {
     background-color: #17213C;
     color: white;
-    position: relative;
     min-height: 100vh;
+}
+
+.locale-form-container {
+    position: relative;
+    width: 100%;
 }
 
 .locale-content {
@@ -361,7 +365,7 @@ body {
     margin: 0 auto;
     display: flex;
     position: absolute;
-    bottom: -300px;
+    bottom: -1000px;
     left: 50%;
     right: 50%;
     transform: translate(-40%, -8%);
@@ -429,4 +433,53 @@ body {
 .form-container h1 {
     font-size: 40px;
     font-weight: bold;
+}
+
+.footer-container {
+    margin-top: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0 3rem 0;
+}
+
+.footer-content {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #252B42;
+    margin-bottom: 20px;
+}
+
+.footer-contact ul {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 20px;
+}
+
+
+
+.footer-contact ul li:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.footer-texts ul li, .footer-contact span  {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #737373;
+    font-weight: 500;
+}
+
+.footer-second-text {
+    text-align: center;
+    font-size: 14px;
+    color: #737373;
 }

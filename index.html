@@ -198,44 +198,83 @@
             <img src="/public/brasil.svg" alt="">
         </div>
 
-        <div class="locale-form">
-            <img src="/public/form-img.svg" alt="">
-            <form class="form-container">
-                <h1>Faça seu orçamento</h1>
-                <div>
+        <div class="locale-form-container">
+            <div class="locale-form">
+                <img src="/public/form-img.svg" alt="">
+                <form class="form-container">
+                    <h1>Faça seu orçamento</h1>
                     <div>
-                        <label for="name">Nome*</label>
-                        <input type="text" id="name" placeholder="Nome completo">
-                    </div>
-                    <div>
-                        <label for="email">Email*</label>
-                        <input type="text" id="email" placeholder="exemple@email.com">
-                    </div>
-                    <div>
-                        <label for="departamento">departamento*</label>
+                        <div>
+                            <label for="name">Nome*</label>
+                            <input type="text" id="name" placeholder="Nome completo">
+                        </div>
+                        <div>
+                            <label for="email">Email*</label>
+                            <input type="text" id="email" placeholder="exemple@email.com">
+                        </div>
+                        <div>
+                            <label for="departamento">departamento*</label>
                             <select name="departamento">
-                            <option value="volvo" selected>Escolha um departamento</option>
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
-                        </select>
+                                <option value="volvo" selected>Escolha um departamento</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="time">Tempo de Avaliação*</label>
+                            <select name="time">
+                                <option value="volvo">4:00 disponivel</option>
+                                <option value="saab">5:00 disponivel</option>
+                                <option value="mercedes">6:00 disponivel</option>
+                                <option value="audi">7:00 disponivel</option>
+                            </select>
+                        </div>
+                        <button>Consultar</button>
                     </div>
-                    <div>
-                        <label for="time">Tempo de Avaliação*</label>
-                        <select name="time">
-                            <option value="volvo">4:00 disponivel</option>
-                            <option value="saab">5:00 disponivel</option>
-                            <option value="mercedes">6:00 disponivel</option>
-                            <option value="audi">7:00 disponivel</option>
-                        </select>
-                    </div>
-                    <button>Consultar</button>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
 
     </div>
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Entre em contato</h3>
+
+                <span>Siga nossas Principais <br>
+                    Redes socias</span>
+
+                <ul>
+                    <li><img src="/public/facebook-icon.svg" alt=""></li>
+                    <li><img src="/public/instagram-icon.svg" alt=""></li>
+                    <li><img src="/public/twitter-icon.svg" alt=""></li>
+                    <li><img src="/public/youtube-icon.svg" alt=""></li>
+                </ul>
+            </div>
+            <div class="footer-texts">
+                <h3>Mais Informações</h3>
+                <ul>
+                    <li>Sobre nós</li>
+                    <li>Carreira</li>
+                    <li>Estamos contratando</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="footer-texts">
+                <h3>Recursos</h3>
+                <ul>
+                    <li>IOS & Android</li>
+                    <li>Watch a Demo</li>
+                    <li>Customização</li>
+                    <li>API</li>
+                </ul>
+            </div>
+        </div>
+        <span class="footer-second-text">Made With Love By Figmaland All Right Reserved </span>
+    </footer>
 </body>
 
 </html>
